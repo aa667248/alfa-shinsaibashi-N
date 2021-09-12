@@ -1,0 +1,134 @@
+#html_all{
+    color: white;
+    background-color: rgb(221, 0, 0);
+}
+
+#title{
+    font-size: 65px;
+    position: absolute;
+    top: -20px;
+    left: 250px;
+}
+
+#time{
+    font-size: 50px;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+}
+
+#text1{
+    font-size: 30px;
+    position: absolute;
+    top: 250px;
+    left: 10px;
+}
+
+#answer{
+    position: absolute;
+    top: 400px;
+    left: 10px;
+}
+
+#textbox{
+    position: relative;
+    top: 0px;
+    height: 50px;
+    width: 500px;
+    display: block;
+    font-size: 40px;
+}
+
+#button{
+    position: relative;
+    top: -56px;
+    left: 508px;
+    height: 56px;
+    width: 100px;
+    display: block;
+}
+
+
+.design{
+    display: block;
+}
+
+#clear{
+    background-color: white;
+    color: black;
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    width: 75%;
+    height: 75%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+#clear h1{
+    font-size: 100px;
+    color: red;
+}
+
+#failure{
+    background-color: white;
+    color: black;
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    width: 75%;
+    height: 75%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+#failure h1{
+    font-size: 100px;
+    color: blue;
+}
+
+.tweet_button{
+    background-color: #55acee;
+    border: 2px solid #55acee;
+    border-radius: 5px;
+    color: #fff;
+    padding:4px 32px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    text-decoration: none;
+}
+
+.tweet_button:hover {
+    background-color: #fff;
+    color: #55acee;
+}
+#replay{
+    background-color: #eeb855;
+    border: 2px solid #eeb855;
+    font-size: 30px;
+    border-radius: 5px;
+    color: #fff;
+    padding:4px 32px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    text-decoration: none;
+}
+#replay:hover{
+    background-color: #fff;
+    color: #eeb855;
+}
+
+#clash{
+    list-style: none;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#fake_text{
+    position: absolute;
+    top: 455px;
+    width: 1000px;
+}
