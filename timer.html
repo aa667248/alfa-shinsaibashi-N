@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html id="html_all">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>＜警告＞ │ Project N</title>
+        <link rel="stylesheet" href="assets/css/style_timer.css">
+        <link rel="stylesheet" href="assets/css/style_menu.css">
+        <script src="assets/js/timer.js"></script>
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <script type="text/javascript">
+            window.onbeforeunload = function(e) {
+                e.preventDefault();
+                return '';
+            }
+          </script>
+    </head>
+    <body id="all">
+        <div id="back_ground"></div>
+        <main>
+            <img src="assets/images/warning.svg" width="200" height="200">
+            <p id="title">あなたのPCはウイルスに感染しました</p>
+            <p id="time"></p>
+            <p id="text1">制限時間内にパスワードを打ち込まなければ何か大変なことが起こるかもしれません<br><a href="question1.html" target="_blank">ここ</a>にアクセスしパスワードを手に入れてください</p>
+            <div id="answer">
+                <input type="text" id="textbox" placeholder="Passward">
+                <button onclick="Textform()" id="button">Send</button>
+            </div>
+            <div id="fake_text"><p>003C00210044004F00430054005900500045002000680074006D006C003E0020003C00680074006D006C002000690064003D002200680074006D006C<br>005F0061006C006C0022003E0020003C0068006500610064003E0020003C006D00650074006100200063006800610072007300650074003D00220055<br>00540046002D00380022003E0020003C006D00650074006100200068007400740070002D00650071007500690076003D00220058002D00550041002D<br>0043006F006D00700061007400690062006C0065002200200063006F006E00740065006E0074003D002200490045003D00650064006700650022003E<br>0020003C006D0065007400610020006E0061006D0065003D002200760069006500770070006F00720074002200200063006F006E00740065006E0074<br>003D002200770069006400740068003D006400650076006900630065002D00770069006400740068002C00200069006E0069007400690061006C002D<br>007300630061006C0065003D0031002E00300022003E0020003C007400690074006C0065003EFF1C8B66544AFF1E00202502002000500072006F006A<br>0065006300740020004E003C002F007400690074006C0065003E0020003C006C0069006E006B002000720065006C003D0022007300740079006C0065<br>00730068006500650074002200200068007200650066003D0022006100730073006500740073002F006300730073002F007300740079006C0065005F<br>00740069006D00650072002E0063007300730022003E0020003C006C0069006E006B002000720065006C003D0022007300740079006C006500730068<br>006500650074002200200068007200650066003D0022006100730073006500740073002F006300730073002F007300740079006C0065005F006D0065<br>006E0075002E0063007300730022003E0020003C0073006300720069007000740020007300720063003D0022006100730073006500740073002F006A<br>0073002F00740069006D00650072002E006A00730022003E003C002F007300630072006900700074003E0020003C006C0069006E006B002000680072<br>00650066003D002200680074007400700073003A002F002F007500730065002E0066006F006E00740061007700650073006F006D0065002E0063006F</p></div>
+        </main>
+        <div id="menu">
+            <ul class="select">
+                <li class="space"></li>
+                <li><a href="rule.html#description" target="_blamk">概要</a></li>
+                <li><a href="rule.html#rule" target="_blamk">ルール</a></li>
+                <li><a href="rule.html#help" target="_blamk">ヘルプ</a></li>
+                <li class="tab">
+                    <input type="checkbox" id="tool_switch">
+                    <label for="tool_switch" id="tool_switch_label">ツール</label>
+                    <div id="tool_main">
+                        <ul class="select">
+                            <li><a href="jisyo.html" target="_blamk">辞書</a></li>
+                            <li><a href="keisanki.html" target="_blamk">計算機</a></li>
+                            <li><a href="https://twitter.com/home" target="_blamk">Twitter</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="tab">
+                    <input type="checkbox" id="setting_switch">
+                    <label for="setting_switch" id="setting_switch_label">設定</label>
+                    <div id="setting_main">
+                        <p>音量</p>
+                        <input type="range" class="design">
+                        <p>画質モード</p>
+                        <input type="radio" name="design_radio" class="design" checked>
+                        <label class="design">高画質</label>
+                        <input type="radio" name="design_radio" class="design">
+                        <label class="design">普通画質</label>
+                        <input type="radio" name="design_radio" class="design">
+                        <label class="design">低画質</label>
+                        <p>ナイトモード</p>
+                        <div id="switch">
+                            <input type="checkbox" id="dark_mode" onchange="changesytle('mystyle')">
+                            <label for="dark_mode" class="frame"></label>
+                            <div class="circle"></div>
+                            <div class="moon"></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="marker"></div>
+        <footer id="footer_all">
+            <div>
+                <p>授業主催： N・S高<br>協力：株式会社SCRAP<br>企画制作：N・S高生<br>「リアル脱出ゲーム」は株式会社SCRAPの登録商標です。<br>株式会社SCRAPとN・S高で実施した授業「リアル脱出ゲームの作り方」の一環で<br>生徒が制作したものであり、SCRAPが主催/公認するものではありません。</p>
+            </div>
+        </footer>
+    </body>
+</html>
