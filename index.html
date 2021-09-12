@@ -9,123 +9,47 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <svg width="0" height="0" class="hidden">
-    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.47 24.94" id="arrow" class="arrow_svg">
-      <title>arrow</title>
-      <polygon points="0 24.94 0 19.66 7.35 12.47 0 5.92 0 0 12.47 12.47 0 24.94"/>
-    </symbol>
-  </svg>
-  <header class="header">
-    <div class="container">
-      <div class="header__logo"><img src="assets/images/logo.svg" alt="チームロゴ"></div>
-      <div class="header__name">N・S高生制作サイト</div>
-    </div>
-  </header>
-  <main class="main index-page">
-    <!-- タイトルエリア　ここから -->
-    <h1 class="main-title"><img src="assets/images/top-image.png" alt="Presented by SCRAP×N・S高リアル脱出ゲーム制作PJ 封鎖された家庭科室からの脱出"></h1>
-    <!-- タイトルエリア　ここまで -->
-    <section class="section section--story">
-      <div class="container">
-        <h2 class="section-title section-title--keycolor section-title--story">ストーリー</h2>
-        <div class="story">
-          <p class="text-center">郊外にある、歴史も古い小学校・・・<br>
-            いつの間にか、放課後に家庭科室から奇妙な叫び声が聞こえてくるという噂が流れ始めた。<br>
-            調査したが、噂の出どころはわからない。<br>
-            そんな矢先、某有名預言者ノストラエヌスが、「このままだと家庭科室が原因で、学校が滅びるだろう」と予言。<br>
-            生徒に人気のS先生が一人で調査に入ったが、いつまでも帰ってこない。<br>
-            不思議に思った生徒会長の君は、副会長の伊計島太郎と茨つくはの<br>
-            ２名を連れて家庭科室の前に来たが、ドアが開かない。<br>
-            さらにドアの前に画面とキーボードが。どうやら暗号を入力しろということらしい。</p>
-          <div class="story__note__outer bg-color--gray">
-            <ul class="story__note">
-              <li>今、これを読んだ生徒会メンバー以外を呼んではいけない</li>
-              <li>30分を超えるとS先生は出てこられない</li>
-            </ul>
-          </div>
-          <p class="text-center">いつの間にか、タイマーが起動した。29:58、29:57・・・急がなきゃ。<br>
-            まずはこの暗号を解かなくては！</p>
-        </div>
-      </div>
-    </section>
-    <section class="section bg-color--gray">
-      <div class="container">
-        <h2 class="section-title">ゲーム開始前の準備</h2>
-        <p class="font-eng text-center">Are you ready for game?</p>
-        <!--
-          class名"row"内のclass名"column"が横並びになります。
-          改行する場合は以下のように追加してください。
-          <div class="row">
-            <div class="column">
-              ～ 内容 ～
+        <main id="start_main">
+            <img src="assets/images/matrix.png" width="100%">
+            <div class="rule_box">
+                <h1 id="description">概要</h1>
+                <h2>リアル脱出ゲームとは</h2>
+                <P>2004年に発表されたネットで爆発的に盛り上がった「脱出ゲーム」を、そのフォーマットそのままに現実世界に移し替えた大胆な遊びが「リアル脱出ゲーム」<br>マンションの1室や廃校、廃病院、そして東京ドームや六本木ヒルズなど、様々な場所で開催され、2007年に初開催して以降、現在までで累計820万人以上を動員<br>日本のみならず上海、台湾、シンガポールやサンフランシスコなど全世界で参加者を興奮の渦に巻き込み、男女問わずあらゆる世代を取り込む、今大注目の体験型エンターテインメント</P>
+                <h2>SCRAP社とは</h2>
+                <p>「リアル脱出ゲーム」を中心としたイベントの企画運営をする企業<br>謎解きを通した「物語体験」を提供します</p>
+                <h2>N・S高等学校とは</h2>
+                <p>N高等学校・S高等学校はKADOKAWA・ドワンゴが創るネットと通信制高校の制度を活用した、新しいネットの高校</p>
+                <h2>製作者について</h2>
+                <p>心斎橋キャンパス グループN<br>N・S高等学校に通う極々普通の生徒<br>作業時間短すぎて、大したもん作れんかった</p>
+                <h1 id="rule">ルール</h1>
+                <h2>制限時間</h2>
+                <p>制限時間は60分!!<br>ぱっぱと解いて、最速タイムを目指せ!!<br>※何度でも挑戦可</p>
+                <h2>必要なもの</h2>
+                <p>PC以外、特になし<br>必要なら紙とペンは使ってもいいよ</p>
+                <h2>操作方法</h2>
+                <p>基本的にはカーソルのコントロールとテキストボックス内への記入のみ<br>ゲーム開始後、カーソルを画面右端に寄せるとメニュー画面が、画面下に寄せるとフッターが表示されます</p>
+                <h2>推奨デバイス</h2>
+                <p>PC(windows,mac,chromebook等)推奨<br>スマートフォン及びタブレット端末では、一部操作できない可能性があります</p>
+                <h2>注意事項</h2>
+                <p>本サイトはフィクションです<br>本サイト内で登場するコンピュータウイルスは架空のものであり<br>実際には存在しません</p>
+                <h2>禁則事項</h2>
+                <ul>
+                    <li><h3>ソースコード解析などを用いた不正行為</h3></li>
+                    <li><h3>無許可での転載等の行為</h3></li>
+                    <li><h3>過度なネタバレ行為</h3></li>
+                </ul>
+                <p>上記を守り、楽しくプレイしましょう</p>
+                <br><br><br><br><br><br><br>
             </div>
-          </div>
-        -->
-        <div class="row">
-          <div class="column">
-            <div class="card">
-              <h3 class="card__title">遊ぶ日時を決めよう！</h3>
-              <p class="card__content">前後の説明、解説をあわせ、想定所要時間は100分〜120分です。途中で中断することもできますが、お時間に余裕があるときにご参加ください。</p>
+            <br>
+            <div id="start_botton">
+                <a href="timer.html" id="game_start" target="_blank">ゲームスタート</a>
             </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <h3 class="card__title">紙とペンを用意しよう！</h3>
-              <p class="card__content">メモをとるための紙と筆記用具をお手元にご準備ください。</p>
+        </main>
+        <footer>
+            <div>
+                <p>授業主催： N・S高<br>協力：株式会社SCRAP<br>企画制作：N・S高生<br>「リアル脱出ゲーム」は株式会社SCRAPの登録商標です。<br>株式会社SCRAPとN・S高で実施した授業「リアル脱出ゲームの作り方」の一環で<br>生徒が制作したものであり、SCRAPが主催/公認するものではありません。</p>
             </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <h3 class="card__title">ブラウザのCookieとキャッシュを<br>削除しよう！</h3>
-              <p class="card__content">エラーが起きる原因となる恐れがありますので、必ずCookieとキャッシュを削除してからプレイを開始するようにしてください。</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section bg-color--keycolor">
-      <div class="container">
-        <h2 class="section-title">複数人での遊び方</h2>
-        <p class="font-eng text-center">Playing games with multiple players</p>
-        <div class="row">
-          <div class="column">
-            <div class="card">
-              <h3 class="card__title">コミュニケーションツール<br>を用意！</h3>
-              <p class="card__content">例：Zoom、LINE通話など<br>
-                カメラはオフにしたままでも参加は可能です。<br>
-                ただ、離れたところにいる仲間と同じ会場で謎解きをしている気持ちになれるので、カメラをオンにしてみんなでわいわいプレイをすることをお勧めします。</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <h3 class="card__title">イヤホンを使おう！</h3>
-              <p class="card__content">本ゲームでは、登場人物が会話する動画を見ながら謎解きをします。<br>
-                動画を見るときにイヤホンを使うと、動画の再生中も仲間と会話をしながらプレイができます。<br>
-                ※イヤホンを使用しない場合は、音声をマイクが拾ってしまわないように、動画の再生中は通話ツールのミュート機能をご利用ください。</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <h3 class="card__title">情報共有はしっかりと！</h3>
-              <p class="card__content">遠くにいる仲間と足並みを揃えて遊びましょう。<br>
-                動画で気になったところ、解けた謎の答えや思いついたことはなんでも共有しましょう！</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="container">
-        <a class="btn" href="main.html">準備OK？では、ゲームスタート！！！<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></a>
-      </div>
-    </section>
-  </main>
-  <footer class="footer section bg-color--gray">
-    <div class="container">
-      <p class="text-center">授業主催： N・S高<br>協力：株式会社SCRAP<br>企画制作：N・S高生</p>
-      <p class="text-center">「リアル脱出ゲーム」は株式会社SCRAPの登録商標です。</p>
-      <p class="text-center">株式会社SCRAPとN・S高で実施した授業「リアル脱出ゲームの作り方」の一環で<br>生徒が制作したものであり、SCRAPが主催/公認するものではありません。</p>
-    </div>
-  </footer>
-</body>
+        </footer>
+    </body>
 </html>
