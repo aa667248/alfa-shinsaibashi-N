@@ -1,0 +1,66 @@
+.kana_switch{
+    width: 40px;
+    height: 40px;
+}
+
+.none_switch{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: transparent;
+}
+
+#right_side{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: wheat;
+}
+
+#kana{
+    position: relative;
+    top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.568);
+    width: 221.4px;
+    height: 650px;
+    border-collapse: collapse;
+}
+
+#kana_text{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0;
+    height: 50px;
+}
+
+#dictionary{
+    width: 80%;
+    border-collapse: collapse;
+}
+
+#dictionary td{
+    border: solid 1px black;
+}
+
+#No{
+    width: 60px;
+}
+
+#kaki{
+    width: 125px;
+}
+
+#yomi{
+    width: 125px;
+}
+
+#inyou{
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    text-align: center;
+}
