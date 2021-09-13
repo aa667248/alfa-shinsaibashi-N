@@ -38,7 +38,7 @@ function Textform(value){
             document.getElementById('switch').insertAdjacentHTML('afterbegin','<input type="checkbox" id="dark_mode" onchange="changesytle()">');
             console.log('stage4:clear')
         }else{
-            document.getElementById('textbox3').value = '';
+            document.getElementById('textbox4').value = '';
         }
     }
 }
