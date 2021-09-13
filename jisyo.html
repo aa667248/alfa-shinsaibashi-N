@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>辞書 │ Project N</title>
+        <link rel="stylesheet" href="assets/css/style_jisyo.css">
+        <script src="assets/js/辞書.js"></script>
+    </head>
+    <body>
+        <div id="right_side">
+            <div id="kana">
+                <p id="kana_text">五十音検索</p>
+                <div id="row_a">
+                    <input type="button" onclick="table_in(0)" value="あ" class="kana_switch">
+                    <input type="button" onclick="table_in(1)" value="い" class="kana_switch">
+                    <input type="button" onclick="table_in(2)" value="う" class="kana_switch">
+                    <input type="button" onclick="table_in(3)" value="え" class="kana_switch">
+                    <input type="button" onclick="table_in(4)" value="お" class="kana_switch">
+                </div>
+                <div id="row_ka">
+                    <input type="button" onclick="table_in(5)" value="か" class="kana_switch">
+                    <input type="button" onclick="table_in(6)" value="き" class="kana_switch">
+                    <input type="button" onclick="table_in(7)" value="く" class="kana_switch">
+                    <input type="button" onclick="table_in(8)" value="け" class="kana_switch">
+                    <input type="button" onclick="table_in(9)" value="こ" class="kana_switch">
+                </div>
+                <div id="row_sa">
+                    <input type="button" onclick="table_in(10)" value="さ" class="kana_switch">
+                    <input type="button" onclick="table_in(11)" value="し" class="kana_switch">
+                    <input type="button" onclick="table_in(12)" value="す" class="kana_switch">
+                    <input type="button" onclick="table_in(13)" value="せ" class="kana_switch">
+                    <input type="button" onclick="table_in(14)" value="そ" class="kana_switch">
+                </div>
+                <div id="row_ta">
+                    <input type="button" onclick="table_in(15)" value="た" class="kana_switch">
+                    <input type="button" onclick="table_in(16)" value="ち" class="kana_switch">
+                    <input type="button" onclick="table_in(17)" value="つ" class="kana_switch">
+                    <input type="button" onclick="table_in(18)" value="て" class="kana_switch">
+                    <input type="button" onclick="table_in(19)" value="と" class="kana_switch">
+                </div>
+                <div id="row_na">
+                    <input type="button" onclick="table_in(20)" value="な" class="kana_switch">
+                    <input type="button" onclick="table_in(21)" value="に" class="kana_switch">
+                    <input type="button" onclick="table_in(22)" value="ぬ" class="kana_switch">
+                    <input type="button" onclick="table_in(23)" value="ね" class="kana_switch">
+                    <input type="button" onclick="table_in(24)" value="の" class="kana_switch">
+                </div>
+                <div id="row_ha">
+                    <input type="button" onclick="table_in(25)" value="は" class="kana_switch">
+                    <input type="button" onclick="table_in(26)" value="ひ" class="kana_switch">
+                    <input type="button" onclick="table_in(27)" value="ふ" class="kana_switch">
+                    <input type="button" onclick="table_in(28)" value="へ" class="kana_switch">
+                    <input type="button" onclick="table_in(29)" value="ほ" class="kana_switch">
+                </div>
+                <div id="row_ma">
+                    <input type="button" onclick="table_in(30)" value="ま" class="kana_switch">
+                    <input type="button" onclick="table_in(31)" value="み" class="kana_switch">
+                    <input type="button" onclick="table_in(32)" value="む" class="kana_switch">
+                    <input type="button" onclick="table_in(33)" value="め" class="kana_switch">
+                    <input type="button" onclick="table_in(34)" value="も" class="kana_switch">
+                </div>
+                <div id="row_ya">
+                    <input type="button" onclick="table_in(35)" value="や" class="kana_switch">
+                    <input type="button" value="　" class="none_switch">
+                    <input type="button" onclick="table_in(36)" value="ゆ" class="kana_switch">
+                    <input type="button" value="　" class="none_switch">
+                    <input type="button" onclick="table_in(37)" value="よ" class="kana_switch">
+                </div>
+                <div id="row_ra">
+                    <input type="button" onclick="table_in(38)" value="ら" class="kana_switch">
+                    <input type="button" onclick="table_in(39)" value="り" class="kana_switch">
+                    <input type="button" onclick="table_in(40)" value="る" class="kana_switch">
+                    <input type="button" onclick="table_in(41)" value="れ" class="kana_switch">
+                    <input type="button" onclick="table_in(42)" value="ろ" class="kana_switch">
+                </div>
+                <div id="row_wa">
+                    <input type="button" onclick="table_in(43)" value="わ" class="kana_switch">
+                    <input type="button" value="を" class="kana_switch" disabled>
+                    <input type="button" value="ん" class="kana_switch" disabled>
+                </div>
+                <div id="row_ga">
+                    <input type="button" onclick="table_in(44)" value="が" class="kana_switch">
+                    <input type="button" onclick="table_in(45)" value="ぎ" class="kana_switch">
+                    <input type="button" onclick="table_in(46)" value="ぐ" class="kana_switch">
+                    <input type="button" onclick="table_in(47)" value="げ" class="kana_switch">
+                    <input type="button" onclick="table_in(48)" value="ご" class="kana_switch">
+                </div>
+                <div id="row_za">
+                    <input type="button" onclick="table_in(49)" value="ざ" class="kana_switch">
+                    <input type="button" onclick="table_in(50)" value="じ" class="kana_switch">
+                    <input type="button" onclick="table_in(51)" value="ず" class="kana_switch">
+                    <input type="button" onclick="table_in(52)" value="ぜ" class="kana_switch">
+                    <input type="button" onclick="table_in(53)" value="ぞ" class="kana_switch">
+                </div>
+                <div id="row_da">
+                    <input type="button" onclick="table_in(54)" value="だ" class="kana_switch">
+                    <input type="button" value="ぢ" class="kana_switch" disabled>
+                    <input type="button" onclick="table_in(55)" value="づ" class="kana_switch">
+                    <input type="button" onclick="table_in(56)" value="で" class="kana_switch">
+                    <input type="button" onclick="table_in(57)" value="ど" class="kana_switch">
+                </div>
+                <div id="row_ba">
+                    <input type="button" onclick="table_in(58)" value="ば" class="kana_switch">
+                    <input type="button" onclick="table_in(59)" value="び" class="kana_switch">
+                    <input type="button" onclick="table_in(60)" value="ぶ" class="kana_switch">
+                    <input type="button" onclick="table_in(61)" value="べ" class="kana_switch">
+                    <input type="button" onclick="table_in(62)" value="ぼ" class="kana_switch">
+                </div>
+                <div id="row_pa">
+                    <input type="button" onclick="table_in(63)" value="ぱ" class="kana_switch">
+                    <input type="button" onclick="table_in(64)" value="ぴ" class="kana_switch">
+                    <input type="button" onclick="table_in(65)" value="ぷ" class="kana_switch">
+                    <input type="button" onclick="table_in(66)" value="ぺ" class="kana_switch">
+                    <input type="button" onclick="table_in(67)" value="ぽ" class="kana_switch">
+                </div>
+            </div>
+            <p id="inyou"><a href="https://kokugo.jitenon.jp/">国語辞典オンライン</a>より引用</p>
+        </div>
+        <table id="dictionary">
+            <thead>
+                <td id="No">番号</td>
+                <td id="kaki">書き</td>
+                <td id="yomi">読み</td>
+                <td id="mean">意味</td>
+            </thead>
+            <tbody id="table">
+            </tbody>
+        </table>
+        <script>
+            table_in(0)
+        </script>
+    </body>
+</html>
