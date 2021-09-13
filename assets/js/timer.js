@@ -16,12 +16,12 @@ function Textform(){
       document.getElementById('time').innerHTML = 'clear';
       stageclear()
       timer_stop = true
-      console.log('成功')
+      console.log('脱出成功')
   }else{
       document.getElementById('textbox').value = '';
       i++;
       console.log(i)
-      console.log('失敗')
+      console.log('脱出失敗')
   }
   /**27~58ボツ */
   if(ans == ss){
@@ -78,15 +78,15 @@ function stageclear(){
   var cleartime = dt - startDt
   var clear_min = Math.floor(cleartime/60000),clear_sec = Math.floor((cleartime-clear_min*60000)/1000),clear_m_sec = timelag%1000
   cleartime = ('00'+clear_min).slice(-2)+':'+('00'+clear_sec).slice(-2)+':'+('000'+clear_m_sec).slice(-3)
-  tweet_url ='';
+  tweet_url ='https://aa667248.github.io/alfa-shinsaibashi-N/';
   tweet_text = '脱出成功!!%0D%0A記録は'+cleartime+'!!%0D%0Aあなたも挑戦してみよう!!%0D%0A';
-  tweet_hashtags = '';
-  document.getElementById('marker').insertAdjacentHTML('afterbegin','<div id="clear"><h1>脱出成功</h1><p>あなたの記録は'+cleartime+'</p><a href="start.html" id="replay">もう一度遊ぶ</a><br><a href="https://twitter.com/share?url='+tweet_url+'&text='+tweet_text+'&hashtags='+tweet_hashtags+'&count=none&lang=ja" target="_blank" class="tweet_button"><i class="fab fa-twitter"></i>Twitter</a></div>')
+  tweet_hashtags = 'リアル脱出ゲーム,パンドラの箱(仮)に感染しました,SCRAP,N・S高等学校';
+  document.getElementById('marker').insertAdjacentHTML('afterbegin','<div id="clear"><h1>脱出成功</h1><p>あなたの記録は'+cleartime+'</p><a href="index.html" id="replay">もう一度遊ぶ</a><br><a href="https://twitter.com/share?url='+tweet_url+'&text='+tweet_text+'&hashtags='+tweet_hashtags+'&count=none&lang=ja" target="_blank" class="tweet_button"><i class="fab fa-twitter"></i>Twitter</a></div>')
 }
 
 function stagefailure(){
-  tweet_url ='';
+  tweet_url ='https://aa667248.github.io/alfa-shinsaibashi-N/';
   tweet_text = '脱出失敗%0D%0Aあなたも挑戦してみてみよう!!%0D%0A';
-  tweet_hashtags = '';
-  document.getElementById('marker').insertAdjacentHTML('afterbegin','<div id="failure"><h1>脱出失敗</h1><p>制限時間内にクリアできなかった</p><a href="start.html" id="replay">もう一度遊ぶ</a><br><a href="https://twitter.com/share?url='+tweet_url+'&text='+tweet_text+'&hashtags='+tweet_hashtags+'&count=none&lang=ja" target="_blank" class="tweet_button"><i class="fab fa-twitter"></i>Twitter</a></div>')
+  tweet_hashtags = 'リアル脱出ゲーム,パンドラの箱(仮)に感染しました,SCRAP,N・S高等学校';
+  document.getElementById('marker').insertAdjacentHTML('afterbegin','<div id="failure"><h1>脱出失敗</h1><p>制限時間内にクリアできなかった</p><a href="index.html" id="replay">もう一度遊ぶ</a><br><a href="https://twitter.com/share?url='+tweet_url+'&text='+tweet_text+'&hashtags='+tweet_hashtags+'&count=none&lang=ja" target="_blank" class="tweet_button"><i class="fab fa-twitter"></i>Twitter</a></div>')
 }
