@@ -90,7 +90,7 @@ body{
 }
 #hint1:checked ~ #hint1_main{
     top: -150px;
-    height: 100px;
+    height: 200px;
 }
 #hint1:checked ~ #hint1_frame{
     height: 200px;
@@ -108,7 +108,7 @@ body{
 }
 #hint2:checked ~ #hint2_main{
     top: -150px;
-    height: 100px;
+    height: 200px;
 }
 #hint2:checked ~ #hint2_frame{
     height: 200px;
@@ -126,7 +126,7 @@ body{
 }
 #hint3:checked ~ #hint3_main{
     top: -150px;
-    height: 100px;
+    height: 200px;
 }
 #hint3:checked ~ #hint3_frame{
     height: 200px;
@@ -144,7 +144,7 @@ body{
 }
 #hint4:checked ~ #hint4_main{
     top: -150px;
-    height: 100px;
+    height: 200px;
 }
 #hint4:checked ~ #hint4_frame{
     height: 200px;
