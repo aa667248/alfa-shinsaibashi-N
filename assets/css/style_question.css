@@ -9,15 +9,19 @@ body{
     width: 80%;
 }
 #stage1{
+    text-align: center;
     display: inline;
 }
 #stage2{
+    text-align: center;
     display: none;
 }
 #stage3{
+    text-align: center;
     display: none;
 }
 #stage4{
+    text-align: center;
     display: none;
 }
 #textbox1{
