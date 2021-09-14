@@ -1,5 +1,5 @@
 function Textform(value){
-    var aa = ['1','2','3','4']
+    var aa = ['じかん','かいそく','きょういく','きょうこう']
     if(value == 0){
         var ans = document.getElementById('textbox1').value;
         if(ans==aa[0]){
