@@ -51,7 +51,5 @@ body{
 }
 
 #open_final{
-    margin: 0;
-    color:white;
-    font-size: 100px;
+    width: 100%;
 }
