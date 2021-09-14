@@ -34,7 +34,6 @@ function Textform(value){
         if(ans==aa[3]){
             document.getElementById('all').innerHTML='';
             document.getElementById('all').insertAdjacentHTML('afterbegin','<p>夜になればわかる<p>');
-            document.getElementById('body_all').innerHTML='ここに答え';
             document.getElementById('dark_mode').remove();
             document.getElementById('switch').insertAdjacentHTML('afterbegin','<input type="checkbox" id="dark_mode" onchange="changesytle()">');
             console.log('stage4:clear')
