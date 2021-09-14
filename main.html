@@ -7,6 +7,7 @@
         <title>%E7%89%B9%E3%81%AB%E6%84%8F%E5%91%B3%E3%81%AF%E3%81%AA%E3%81%84+%E2%94%82+Project+N</title>
         <link rel="stylesheet" href="assets/css/style_question.css" id="mystyle">
         <link rel="stylesheet" href="assets/css/style_menu.css">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
         <script src="assets/js/changestyle.js"></script>
         <script src="assets/js/answer.js"></script>
     </head>
@@ -18,12 +19,26 @@
                     <input type="text" id="textbox1" placeholder="Answer">
                     <button onclick="Textform(0)" class="button">Send</button>
                 </div>
+                <div class="hint">
+                    <input type="checkbox" id="hint1">
+                    <label for="hint1">ヒント<i class="fas fa-angle-down"></i></label>
+                    <div id="hint1_main">
+                        <p></p>
+                    </div>
+                </div>
             </div>
             <div id="stage2">
                 <img src="assets/images/謎解き2.png" class="question">
                 <div class="answer">
                     <input type="text" id="textbox2" placeholder="Answer">
                     <button onclick="Textform(1)" class="button">Send</button>
+                </div>
+                <div class="hint">
+                    <input type="checkbox" id="hint2">
+                    <label for="hint2">ヒント<i class="fas fa-angle-down"></i></label>
+                    <div id="hint2_main">
+                        <p></p>
+                    </div>
                 </div>
             </div>
             <div id="stage3">
@@ -32,12 +47,26 @@
                     <input type="text" id="textbox3" placeholder="Answer">
                     <button onclick="Textform(2)" class="button">Send</button>
                 </div>
+                        <div class="hint">
+                    <input type="checkbox" id="hint3">
+                    <label for="hint3">ヒント<i class="fas fa-angle-down"></i></label>
+                    <div id="hint3_main">
+                        <p></p>
+                    </div>
+                </div>
             </div>
             <div id="stage4">
                 <img src="assets/images/謎解き4.png" class="question">
                 <div class="answer">
                     <input type="text" id="textbox4" placeholder="Answer">
                     <button onclick="Textform(3)" class="button">Send</button>
+                </div>
+                <div class="hint">
+                    <input type="checkbox" id="hint4">
+                    <label for="hint4">ヒント<i class="fas fa-angle-down"></i></label>
+                    <div id="hint4_main">
+                        <p></p>
+                    </div>
                 </div>
             </div>
             <img src="assets/images/謎解きfinal.png" id="open_final">
