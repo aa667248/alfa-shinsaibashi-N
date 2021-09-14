@@ -5,7 +5,9 @@ html{
 body{
     margin: 0;
 }
-
+.question{
+    width: 80%;
+}
 #stage1{
     display: inline;
 }
