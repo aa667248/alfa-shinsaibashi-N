@@ -56,9 +56,9 @@ function Textform(){
       document.getElementById('clash').removeChild(document.getElementById('clash').children[0])
     },10)
   }
-}
 if(ans == exc){
 	lovation.href = 'HORINO.html'
+}
 }
 
 var id = setInterval(function(){
