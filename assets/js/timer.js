@@ -12,7 +12,7 @@ function Textform(){
   var ans = document.getElementById('textbox').value;
   var aa = 'かいじょ';
   var ss = 'U2FsdGVkX1/0IpPcqsWAyEt5j8hGJV1y1rbSaWSdX02KMJBWhwYH80uFzT+NQU92tXibnvS290poZX0dxSjk4t9p+Gh4mToEe2+VS2hnhZ9KTiTlccDZu1wspys4z6IBHPebP+PQ7KJtEItPvec79S+QFEa9ooZWNRETrEvin1cDDwEQwZI/yceDAc5Fp1af'/**aes:I wrote that you must not look at the source code*/';
-  var exc = 'ほりの'
+  var exc = 'ほりのけんた'
   if(ans == aa){
       document.getElementById('time').innerHTML = 'clear';
       stageclear()
