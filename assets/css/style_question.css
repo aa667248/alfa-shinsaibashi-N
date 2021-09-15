@@ -7,6 +7,9 @@ body{
 }
 .question{
     width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #stage1{
     text-align: center;
@@ -23,6 +26,12 @@ body{
 #stage4{
     text-align: center;
     display: none;
+}
+
+.answer{
+    width: 608px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #textbox1{
     position: relative;
@@ -67,6 +76,8 @@ body{
 }
 
 .hint{
+    margin-left: auto;
+    margin-right: auto;
     width: 500px;
     height: 50px;
 }
