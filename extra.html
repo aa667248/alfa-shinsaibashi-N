@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head id="head_all">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Extra_mode</title>
+        <link rel="stylesheet" href="assets/css/style_extra.css" id="mystyle">
+        <script src="assets/js/answer_extra.js"></script>
+    </head>
+    <body id="body_all">
+        <main id="all">
+            <div id="extra_int">
+                <p>ここはエクストラステージ<br>本編と関係はない<br>クリアしても何もないけど暇つぶしにでも解いてほしい<br>ちょっと難しめの謎解き五問を制限時間ないに解いてもらう<br>制限時間は20分<br>各問題の回答権は一度のみで、間違えれば即終了<br>ヒントなし<br>紙やペンは各自自由に使ってくれてかまわない<br>準備ができたら下のスタートボタンを押してくれ</p>
+                <a onclick="timer()" id="game_start">スタート</a>
+            </div>
+            <div><p id="time"></p></div>
+            <div id="stage">
+                <div id="stage1">
+                    <img src="assets/images/謎解きExtra1.png" class="question">
+                    <div class="answer">
+                        <input type="text" id="textbox1" placeholder="A,B,C,Dのいずれかを入力">
+                        <button onclick="Textform(0)" class="button">Send</button>
+                    </div>
+                </div>
+                <div id="stage2">
+                    <img src="assets/images/謎解きExtra2.png" class="question">
+                    <div class="answer">
+                        <input type="text" id="textbox2" placeholder="ひらがなで入力">
+                        <button onclick="Textform(1)" class="button">Send</button>
+                    </div>
+                </div>
+                <div id="stage3">
+                    <img src="assets/images/謎解きExtra3.png" class="question">
+                    <div class="answer">
+                        <input type="text" id="textbox3" placeholder="カタカナで入力">
+                        <button onclick="Textform(2)" class="button">Send</button>
+                    </div>
+                </div>
+                <div id="stage4">
+                    <img src="assets/images/謎解きExtra4.png" class="question">
+                    <div class="answer">
+                        <input type="text" id="textbox4" placeholder="A,B,C,D,Eのいずれかを入力">
+                        <button onclick="Textform(3)" class="button">Send</button>
+                    </div>
+                </div>
+                <div id="stage5" >
+                    <img src="assets/images/謎解きExtra5.png" class="question">
+                    <div class="answer">
+                        <input type="text" id="textbox5" placeholder="ひらがなで入力">
+                        <button onclick="Textform(4)" class="button">Send</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer id="footer_all">
+            <div>
+                <p>授業主催： N・S高<br>協力：株式会社SCRAP<br>企画制作：N・S高生<br>「リアル脱出ゲーム」は株式会社SCRAPの登録商標です。<br>株式会社SCRAPとN・S高で実施した授業「リアル脱出ゲームの作り方」の一環で<br>生徒が制作したものであり、SCRAPが主催/公認するものではありません。</p>
+            </div>
+        </footer>
+    </body>
+</html>
