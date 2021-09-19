@@ -1,0 +1,124 @@
+html{
+    background-color: #001300;
+    color: white;
+}
+body{
+    margin: 0;
+}
+.question{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#stage1{
+    display: none;
+}
+#stage2{
+    display: none;
+}
+#stage3{
+    display: none;
+}
+#stage4{
+    display: none;
+}
+#stage5{
+    display: none;
+}
+.answer{
+    width: 608px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#textbox1{
+    position: relative;
+    top: 0px;
+    height: 50px;
+    width: 500px;
+    display: block;
+    font-size: 40px;
+}
+#textbox2{
+    position: relative;
+    top: 0px;
+    height: 50px;
+    width: 500px;
+    display: block;
+    font-size: 40px;
+}
+#textbox3{
+    position: relative;
+    top: 0px;
+    height: 50px;
+    width: 500px;
+    display: block;
+    font-size: 40px;
+}
+#textbox4{
+    position: relative;
+    top: 0px;
+    height: 50px;
+    width: 500px;
+    display: block;
+    font-size: 40px;
+}
+#textbox5{
+    position: relative;
+    top: 0px;
+    height: 50px;
+    width: 500px;
+    display: block;
+    font-size: 40px;
+}
+
+.button{
+    position: relative;
+    top: -56px;
+    left: 508px;
+    height: 56px;
+    width: 100px;
+    display: block;
+}
+
+#footer_all{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    color: transparent;
+    width: 100%;
+    height: 1px;
+    text-align: center;
+    transition: .3s;
+}
+
+#footer_all:hover{
+    background-color: rgb(175, 175, 175);
+    color: white;
+    height: 200px;
+}
+
+#game_start{
+    position: relative;
+    background-color: white;
+    border: 4px solid white;
+    font-size: 50px;
+    border-radius: 5px;
+    color: #001300;
+    padding:10px 150px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    text-decoration: none;
+}
+#game_start:hover{
+    background-color: #001300;
+    color: white;
+}
+
+#time{
+    font-size: 75px;
+    position: fixed;
+    top: -5%;
+    left: 60%;
+}
