@@ -83,7 +83,7 @@ function stageclear(){
   tweet_url ='https://aa667248.github.io/alfa-shinsaibashi-N/';
   tweet_text = '脱出成功!!%0D%0A記録は'+cleartime+'!!%0D%0Aあなたも挑戦してみよう!!%0D%0A';
   tweet_hashtags = 'リアル脱出ゲーム,パンドラの箱に感染しました,SCRAP,N・S高等学校';
-  document.getElementById('marker').insertAdjacentHTML('afterbegin','<div id="clear"><h1>脱出成功</h1><p>あなたの記録は'+cleartime+'</p><a href="index.html" id="replay">もう一度遊ぶ</a><br><a href="https://twitter.com/share?url='+tweet_url+'&text='+tweet_text+'&hashtags='+tweet_hashtags+'&count=none&lang=ja" target="_blank" class="tweet_button"><i class="fab fa-twitter"></i>Twitter</a></div>')
+  document.getElementById('marker').insertAdjacentHTML('afterbegin','<div id="clear"><h1>脱出成功</h1><p>あなたの記録は'+cleartime+'<br>どこかで えくすとらもーど と入力すると..</p><a href="index.html" id="replay">もう一度遊ぶ</a><br><a href="https://twitter.com/share?url='+tweet_url+'&text='+tweet_text+'&hashtags='+tweet_hashtags+'&count=none&lang=ja" target="_blank" class="tweet_button"><i class="fab fa-twitter"></i>Twitter</a></div>')
 }
 
 function stagefailure(){
