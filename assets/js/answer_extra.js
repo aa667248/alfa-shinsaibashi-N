@@ -46,7 +46,7 @@ function Textform(value){
             i = 2;
             document.getElementById('stage5').style.display='none'
             console.log('stage5:clear')
-            document.getElementById('all').insertAdjacentHTML('afterbegin','<p>まずはクリアおめでとう<br>少し簡単すぎたかな<br><br>実はこのエクストラモードは俺が独断でで作った隠しステージ<br>だから俺以外のメンバーはこのステージがあることも知らない<br>とゆうかサイト制作は俺一人でやってたからわかり用がないんだけど<br><br>今回学校の企画でほぼ初めてHTMLとCSS(javascriptは結構使ってる)触ったけど<br>自分で言うのはなんだけどいい出来に仕上がったと思う<br>それにしても制作時間短すぎな<br>ほぼ2,3週間しかなかったし(週3日2時間だけ)<br>もっと時間があったらモバイル対応と、スタイルシートの調整できただろうし<br>テンプレートがもっといい出来だったらここまで苦労することはなかったのに<br微妙すぎて最初から作った方がいいくらいだったから<br><br>まあ、とにかくこんなおふざけの謎解きに付き合ってくれてありがとう<br>またの機会があったら遊んでほしい</p>')
+            document.getElementById('all').insertAdjacentHTML('afterbegin','<p>クリアおめでとう<br>こんな悪ノリで作った謎解きに付き合ってもらってありがとう<br>またこういうの作る機会があればまた遊んでほしい</p>')
         }else{
             gameover()
         }
