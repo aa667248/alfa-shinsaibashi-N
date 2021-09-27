@@ -81,7 +81,6 @@ function timer(){
                 document.getElementById('stage').style.display='none';
                 console.log("Time up");
                 document.getElementById("time").innerHTML = "time up";
-                stagefailure()
                 document.getElementById('all').insertAdjacentHTML('afterbegin','<p>また挑戦してね☆ミ</p>')
             }
             if(i==1){
